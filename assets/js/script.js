@@ -20,22 +20,25 @@ $(function () {
       localStorage.setItem(time, text);
     });
   }
-  function createrows() {
-    var container = $(".container-lg")
-    for (let i = 9; i < 18; i++) {
-       
-       
-      let timeBlock = $("<div>").addClass("row time-block").attr("id","hour-" + i)
-      let hourdiv = $("<div>").addClass("col-2 col-md-1 hour text-center py-3").text(dayjs().hour(i).format('h A'))
-      let textarea = $("<textarea>").addClass("col-8 col-md-10 description")
-      let btn = $("<button>").addClass("btn saveBtn col-2 col-md-1").html('<i class="fas fa-save" aria-hidden="true"></i>')
-      timeBlock.append(hourdiv).append(textarea).append(btn)
-      container.append(timeBlock)
-    }
+
+function createrows() {
+  var container = $(".container-lg")
+  for (let i = 9; i < 18; i++) {
+     
+     
+    let timeBlock = $("<div>").addClass("row time-block").attr("id","hour-" + i)
+    let hourdiv = $("<div>").addClass("col-2 col-md-1 hour text-center py-3").text(dayjs().hour(i).format('h A'))
+    let textarea = $("<textarea>").addClass("col-8 col-md-10 description")
+    let btn = $("<button>").addClass("btn saveBtn col-2 col-md-1").html('<i class="fas fa-save" aria-hidden="true"></i>')
+    timeBlock.append(hourdiv).append(textarea).append(btn)
+    container.append(timeBlock)
   }
-  
-  createrows();
-  
+}
+
+createrows();
+
+
+
   //
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
@@ -62,7 +65,6 @@ $(function () {
   }
   hourTracker();
 
-
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
@@ -74,6 +76,7 @@ $(function () {
     var blockHour = descriptionElements[i].parentElement.getAttribute("id");
     descriptionElements[i].value = localStorage.getItem(blockHour);
   }
+
   //
   // TODO: Add code to display the current date in the header of the page.
 
