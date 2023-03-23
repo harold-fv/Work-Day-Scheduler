@@ -36,7 +36,11 @@ $(function () {
   // attribute of each time-block be used to do this?
 
   // Load saved events from local storage on page refresh
-
+  var descriptionElements = document.querySelectorAll(".time-block .description");
+  for (var i = 0; i < descriptionElements.length; i++) {
+    var blockHour = descriptionElements[i].parentElement.getAttribute("id");
+    descriptionElements[i].value = localStorage.getItem(blockHour);
+  }
   //
   // TODO: Add code to display the current date in the header of the page.
 
