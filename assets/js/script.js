@@ -20,7 +20,22 @@ $(function () {
       localStorage.setItem(time, text);
     });
   }
-
+  function createrows() {
+    var container = $(".container-lg")
+    for (let i = 9; i < 18; i++) {
+       
+       
+      let timeBlock = $("<div>").addClass("row time-block").attr("id","hour-" + i)
+      let hourdiv = $("<div>").addClass("col-2 col-md-1 hour text-center py-3").text(dayjs().hour(i).format('h A'))
+      let textarea = $("<textarea>").addClass("col-8 col-md-10 description")
+      let btn = $("<button>").addClass("btn saveBtn col-2 col-md-1").html('<i class="fas fa-save" aria-hidden="true"></i>')
+      timeBlock.append(hourdiv).append(textarea).append(btn)
+      container.append(timeBlock)
+    }
+  }
+  
+  createrows();
+  
   //
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
