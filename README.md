@@ -28,8 +28,19 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-
 #Installation:
+
+- To install and use the Password Generator application, please follow these steps:
+
+-  You can clone this repository to your local machine using Git:
+
+-  git clone https://github.com/harold-fv/Work-Day-Scheduler.git
+
+- Open the index.html file in your web browser to run the application.
+
+
+#Usage:
+
 
 1. Below is the total picture of the project.
 ![image](https://user-images.githubusercontent.com/120603153/227630062-cc3cff33-9a0c-4fa8-9ba0-389c42a0c47c.png)
@@ -50,3 +61,9 @@ THEN the saved events persist
 6. All of the informations are save into local storage and if I pressed the refesh url, the information is still showing on the screen.
 ![image](https://user-images.githubusercontent.com/120603153/227631899-e7442129-1110-4467-b9dd-7ba1784373d6.png)
 
+
+- Once you type in your topic in a workday scheduler and you save it, it will then store in a local storage. The next time you open the application work day scheduler, all the data are still shown on the screen. This application has the following features:
+
+1. The user can store his list of items to do in a work scheduler application.
+
+2. It has the ability to show which row is past, present or future.
