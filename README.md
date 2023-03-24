@@ -43,7 +43,7 @@ To install and use the Work Day Scheduler application, please follow these steps
 
    ![image](https://user-images.githubusercontent.com/120603153/227629964-17856577-7b8e-49d4-bd8d-cecd4f442468.png)
 
-3. If I type Project 1 on the 12pm row and click the save icon on the right, information will be stored on the local storage. The 1pm considered as past time and it shows it's color gray to help the user easily track what is past, present and future time. 
+3. If I type Project 1 on the 12pm row and click the save icon on the right, information will be stored on the local storage. The 12pm considered as past time and it shows it's color gray to help the user easily track what is past, present and future time. 
 
    ![image](https://user-images.githubusercontent.com/120603153/227630363-902c8264-08e7-4f43-8ce9-aa9b225af591.png)
 
