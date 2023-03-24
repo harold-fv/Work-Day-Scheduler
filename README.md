@@ -43,15 +43,15 @@ To install and use the Work Day Scheduler application, please follow these steps
 
    ![image](https://user-images.githubusercontent.com/120603153/227629964-17856577-7b8e-49d4-bd8d-cecd4f442468.png)
 
-3. If I type Project 1 on the 12pm row and click save icon on the right, information will be stored on the local storage.
+3. If I type Project 1 on the 1pm row and click the save icon on the right, information will be stored on the local storage. The 1pm considered as past time and it shows it's color gray to help the user easily track what is past, present and future time. 
 
    ![image](https://user-images.githubusercontent.com/120603153/227630363-902c8264-08e7-4f43-8ce9-aa9b225af591.png)
 
-4. If I type another info like Lunch time on row 1PM, it's currently on color red signifying that the current time is color red.
+4. If I type another info like Lunch time on row 2PM, it's currently on color red signifying that the current or present time is color red.
 
    ![image](https://user-images.githubusercontent.com/120603153/227630719-f4af9fcd-7ab3-4d2f-89ba-d58037af5e9b.png)
 
-5. The future time is colored red which starts at two pm based on the current time.
+5. The future time is color green which starts at two pm based on the current time.
 
    ![image](https://user-images.githubusercontent.com/120603153/227630858-f090dee7-885c-4d97-9df1-105e6c49a596.png)
 
