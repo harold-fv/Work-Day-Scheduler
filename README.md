@@ -55,8 +55,8 @@ To install and use the Work Day Scheduler application, please follow these steps
    ![image](https://user-images.githubusercontent.com/120603153/227631899-e7442129-1110-4467-b9dd-7ba1784373d6.png)
 
 
-- Once you type in your list of things to do in a workday scheduler and you save it, it will then store in a local storage. The next time you open the application work day scheduler, all the data are still shown on the screen. This application has the following features:
+- Once you type in your list of things to do in a Work Day scheduler and you save it, it will then store in a local storage. The next time you open the application work day scheduler, all the data are still shown on the screen. This application has the following features:
 
-1. The user can store his list of items to do in a work scheduler application.
+1. The user can store his list of items to do in a Work Day scheduler application.
 
 2. It has the ability to show which row is past, present or future.
