@@ -40,6 +40,7 @@ To install and use the Work Day Scheduler application, please follow these steps
    ![image](https://user-images.githubusercontent.com/120603153/227630062-cc3cff33-9a0c-4fa8-9ba0-389c42a0c47c.png)
 
 2. It shows the current day.
+
    ![image](https://user-images.githubusercontent.com/120603153/227629964-17856577-7b8e-49d4-bd8d-cecd4f442468.png)
 
 3. If I type Project 1 on the 12pm row and click save icon on the right, information will be stored on the local storage.
