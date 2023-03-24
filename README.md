@@ -3,8 +3,6 @@
 This is a simple Work Day Scheduler application that allows a user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
 
-
-
 ## User Story
 
 AS AN employee with a busy schedule
@@ -30,7 +28,7 @@ THEN the saved events persist
 ```
 #Installation:
 
-- To install and use the Password Generator application, please follow these steps:
+- To install and use the Work Day Scheduler application, please follow these steps:
 
 -  You can clone this repository to your local machine using Git:
 
