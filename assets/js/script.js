@@ -1,4 +1,5 @@
 
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -12,15 +13,6 @@ $(function () {
   // useful when saving the description in local storage?
 
 
-  var saveButtons = document.querySelectorAll(".saveBtn");
-  for (var i = 0; i < saveButtons.length; i++) {
-    saveButtons[i].addEventListener("click", function() {
-      var text = this.parentElement.querySelector(".description").value;
-      var time = this.parentElement.getAttribute("id");
-      localStorage.setItem(time, text);
-    });
-  }
-
 function createrows() {
   var container = $(".container-lg")
   for (let i = 9; i < 18; i++) {
@@ -32,6 +24,17 @@ function createrows() {
     let btn = $("<button>").addClass("btn saveBtn col-2 col-md-1").html('<i class="fas fa-save" aria-hidden="true"></i>')
     timeBlock.append(hourdiv).append(textarea).append(btn)
     container.append(timeBlock)
+  }
+  
+  var saveButtons = document.querySelectorAll(".saveBtn")
+  console.log(saveButtons);
+  for (var i = 0; i < saveButtons.length; i++) {
+    console.log("adding event Listener");
+    saveButtons[i].addEventListener("click", function() {
+      var text = this.parentElement.querySelector(".description").value;
+      var time = this.parentElement.getAttribute("id");
+      localStorage.setItem(time, text);
+    });
   }
 }
 
@@ -85,5 +88,8 @@ createrows();
   displayTime.textContent = currentTime;
 
 });
+
+ 
+
 
  
